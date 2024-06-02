@@ -1,0 +1,50 @@
+@import '~normalize.css';
+$hover-bg-color: #6f77f4; 
+
+
+.TheIcons {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $hover-bg-color;
+
+    &:hover {
+        background-color: white; 
+        color: #6f77f4;
+    }
+}
+
+
+
+
+.bg-subscribe-section{
+    background-color: #f6f0f6;
+}
+.footer-btn{
+
+        right: 2%;
+        top: 5%;
+        bottom: 5%;
+        display: flex;
+        align-items: center;
+   
+}
+.subscribe-section{
+    transform: translateY(-50%);
+}
+
+@media (max-width: 768px) {
+  
+    .bg-subscribe-section h5,
+    .bg-subscribe-section p {
+        font-size: 0.8rem; 
+    }
+    .form-control,
+    .btn {
+        padding: 0.25rem 0.5rem;
+        font-size: 0.8rem; 
+    }
+}

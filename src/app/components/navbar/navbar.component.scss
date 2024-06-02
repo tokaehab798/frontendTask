@@ -1,0 +1,33 @@
+@import '~normalize.css';
+.active-link{
+    color: var(--mainColor); 
+    position: relative;
+
+        &::after {
+            content: '';
+            position: absolute;
+            border-radius: 10%;
+            left: 0;
+            right: 0;
+            bottom: -10px; 
+            height: 3px; 
+            background-color: var(--mainColor);
+        }
+    
+}
+@media (max-width: 992px) {
+  
+    .nav-link {
+        text-align: center;
+      width: 100%;
+    }
+  
+    .navbar-nav {
+      width: 25%;
+    }
+  
+    
+    .nav-icons{
+        display: none;
+    }
+  }

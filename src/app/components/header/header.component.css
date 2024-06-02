@@ -1,0 +1,29 @@
+@import '~normalize.css';
+.header {
+  background-color: #d6d8f9;
+}
+
+.input-group input::-moz-placeholder {
+  color: #6c757d;
+}
+
+.input-group input::placeholder {
+  color: #6c757d;
+}
+
+.select-section {
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.bg-select-section {
+  background-color: #f6f0f6;
+}
+
+.header-btn {
+  right: 2%;
+  top: 5%;
+  bottom: 5%;
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=header.component.css.map */

@@ -1,0 +1,25 @@
+@import '~normalize.css';
+.TheIcons {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-subscribe-section {
+  background-color: #f6f0f6;
+}
+
+.footer-btn {
+  right: 2%;
+  top: 5%;
+  bottom: 5%;
+  display: flex;
+  align-items: center;
+}
+
+.subscribe-section {
+  transform: translateY(-50%);
+}/*# sourceMappingURL=footer.component.css.map */

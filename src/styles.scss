@@ -1,0 +1,13 @@
+$mainColor: #6f77f4;
+
+:root {
+    --mainColor: #{$mainColor};
+}
+
+.main-color {
+    color: var(--mainColor); 
+}
+
+.bg-main-color {
+    background-color: var(--mainColor);
+}

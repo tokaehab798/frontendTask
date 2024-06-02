@@ -1,0 +1,37 @@
+@import '~normalize.css';
+.card-img i {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.logo-image {
+  position: absolute;
+  bottom: -10%;
+  left: 10%;
+}
+
+.bg-pink {
+  background-color: #fdd5d5;
+}
+
+.bg-babyblue {
+  background-color: #e9ebfb;
+}
+
+.card {
+  border: none;
+}
+
+.TheIcons {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+.TheIcons:hover {
+  background-color: #6f77f4;
+}/*# sourceMappingURL=programs.component.css.map */
